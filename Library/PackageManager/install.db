@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "packages": {
+    "com.microsoft.mixedreality.openxr": {
+      "tarball": {
+        "hash": "36f977845fc0",
+        "mtime": 1713478153163,
+        "size": 10562125,
+        "localPath": "C:\\Users\\ReF1N\\Hologram_Menu\\Packages\\MixedReality\\com.microsoft.mixedreality.openxr-1.10.1.tgz"
+      }
+    }
+  }
+}
