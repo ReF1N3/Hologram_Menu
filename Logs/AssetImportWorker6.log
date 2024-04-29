@@ -1,0 +1,462 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.23f1 (dbb3f7c5b5c6) revision 14398455'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Core' Language: 'en' Physical Memory: 32412 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.23f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker6
+-projectPath
+C:/Users/ReF1N/Hologram_Menu
+-logFile
+Logs/AssetImportWorker6.log
+-srvPort
+54761
+Successfully changed project path to: C:/Users/ReF1N/Hologram_Menu
+C:/Users/ReF1N/Hologram_Menu
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [29016] Host "[IP] 10.233.14.68 [Port] 0 [Flags] 2 [Guid] 855782792 [EditorId] 855782792 [Version] 1048832 [Id] WindowsEditor(7,Blade16) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [29016] Host "[IP] 10.233.14.68 [Port] 0 [Flags] 2 [Guid] 855782792 [EditorId] 855782792 [Version] 1048832 [Id] WindowsEditor(7,Blade16) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 31 workers.
+Refreshing native plugins compatible for Editor in 25.84 ms, found 15 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.23f1 (dbb3f7c5b5c6)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.23f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/ReF1N/Hologram_Menu/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4090 Laptop GPU (ID=0x2757)
+    Vendor:   NVIDIA
+    VRAM:     16050 MB
+    Driver:   31.0.15.5222
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.23f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.23f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.23f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56412
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.23f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.23f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.009358 seconds.
+- Loaded All Assemblies, in  0.400 seconds
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.321 seconds
+Domain Reload Profiling: 719ms
+	BeginReloadAssembly (108ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (39ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (62ms)
+	LoadAllAssembliesAndSetupDomain (178ms)
+		LoadAssemblies (106ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (175ms)
+			TypeCache.Refresh (174ms)
+				TypeCache.ScanAssembly (158ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (321ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (248ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (173ms)
+			ProcessInitializeOnLoadMethodAttributes (55ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.008 seconds
+Refreshing native plugins compatible for Editor in 20.41 ms, found 15 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.278 seconds
+Domain Reload Profiling: 2278ms
+	BeginReloadAssembly (186ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (27ms)
+	RebuildCommonClasses (50ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (57ms)
+	LoadAllAssembliesAndSetupDomain (696ms)
+		LoadAssemblies (448ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (362ms)
+			TypeCache.Refresh (278ms)
+				TypeCache.ScanAssembly (246ms)
+			ScanForSourceGeneratedMonoScriptInfo (63ms)
+			ResolveRequiredComponents (19ms)
+	FinalizeReload (1278ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1029ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (13ms)
+			SetLoadedEditorAssemblies (9ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (128ms)
+			ProcessInitializeOnLoadAttributes (792ms)
+			ProcessInitializeOnLoadMethodAttributes (76ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 42.41 ms, found 15 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5964 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 91 unused Assets / (1.2 MB). Loaded Objects now: 6431.
+Memory consumption went from 200.4 MB to 199.3 MB.
+Total: 5.472800 ms (FindLiveObjects: 0.626100 ms CreateObjectMapping: 0.256100 ms MarkObjects: 3.617300 ms  DeleteObjects: 0.971600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 271841.981153 seconds.
+  path: Assets/MRTK/Examples/Demos/Gltf/Models/Avocado/glTF/AvocadoCustomAttr.gltf
+  artifactKey: Guid(fea29429b97dbb14b97820f56c74060a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/Examples/Demos/Gltf/Models/Avocado/glTF/AvocadoCustomAttr.gltf using Guid(fea29429b97dbb14b97820f56c74060a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6235784d35bb984d2e3c4bd3da039811') in 0.547501 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/MRTK/Examples/Experimental/SceneUnderstanding/Materials/DemoSceneUnderstanding.mat
+  artifactKey: Guid(a2137747e94e9744b9c97181972d0ed8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/Examples/Experimental/SceneUnderstanding/Materials/DemoSceneUnderstanding.mat using Guid(a2137747e94e9744b9c97181972d0ed8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b642f2dd5ba33e51848081d698ad6a4') in 0.102963 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/MRTK/SDK/Features/UX/Interactable/Prefabs/PressableButtonHoloLens2TextOnly_48x48.prefab
+  artifactKey: Guid(daa0726e9f4321044bc455f2849304f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/SDK/Features/UX/Interactable/Prefabs/PressableButtonHoloLens2TextOnly_48x48.prefab using Guid(daa0726e9f4321044bc455f2849304f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49ab5070cd0bee3dd30ea90c64495c53') in 0.305619 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 262
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/MRTK/Examples/Demos/EyeTracking/DemoTargetSelections/Materials/mat_Bucky.mat
+  artifactKey: Guid(1d228f8f2f35c534db02501de980867f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/Examples/Demos/EyeTracking/DemoTargetSelections/Materials/mat_Bucky.mat using Guid(1d228f8f2f35c534db02501de980867f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76c32bd2fac651b1c5782c135a720283') in 0.068876 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/MRTK/Examples/Demos/UX/Interactables/Prefabs/Model_Bucky.prefab
+  artifactKey: Guid(50eb8d97f29f335409ec2df393ed6cc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/Examples/Demos/UX/Interactables/Prefabs/Model_Bucky.prefab using Guid(50eb8d97f29f335409ec2df393ed6cc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1954b626c20dff000a117806b9254978') in 0.028266 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/MRTK/Examples/StandardAssets/Models/EarthCore.fbx
+  artifactKey: Guid(c72691f7b364d264abdb41ef2f01c706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/Examples/StandardAssets/Models/EarthCore.fbx using Guid(c72691f7b364d264abdb41ef2f01c706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36086042534e1865c020e8e0b860e62d') in 0.096811 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/MRTK/SDK/Features/UX/Interactable/Prefabs/PressableButtonHoloLens2TextOnlyNumber_48x48.prefab
+  artifactKey: Guid(33a8bc5dbea86e34583d3c38840a822d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/SDK/Features/UX/Interactable/Prefabs/PressableButtonHoloLens2TextOnlyNumber_48x48.prefab using Guid(33a8bc5dbea86e34583d3c38840a822d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6eba5a516283ffb824ebb71bc7045707') in 0.058627 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 337
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/MRTK/Examples/Experimental/HandMenuLayout/Materials/HandMenu_Backplate_Circle.mat
+  artifactKey: Guid(e5b19f436fa946c4cb83869ff5c08dd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/Examples/Experimental/HandMenuLayout/Materials/HandMenu_Backplate_Circle.mat using Guid(e5b19f436fa946c4cb83869ff5c08dd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ba773695ee5de11ff80bb179bc7b6c8') in 0.097995 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/MRTK/SDK/Features/UX/Interactable/Prefabs/PressableButtonHoloLens2ToggleCheckBox_32x32.prefab
+  artifactKey: Guid(73f8e1c35082a4d45827891d41219a18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/SDK/Features/UX/Interactable/Prefabs/PressableButtonHoloLens2ToggleCheckBox_32x32.prefab using Guid(73f8e1c35082a4d45827891d41219a18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '723dd6709bea5f966c51da918d32b491') in 0.088892 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 356
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/MRTK/SDK/Features/UX/Interactable/Materials/HolographicButtonIconSearch.mat
+  artifactKey: Guid(57717538759a71948975aa7be8c2a3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/SDK/Features/UX/Interactable/Materials/HolographicButtonIconSearch.mat using Guid(57717538759a71948975aa7be8c2a3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0df6e507a71e934f6f2f5d6690f3ba3a') in 0.050754 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/MRTK/SDK/Features/UX/Meshes/Sliders/Volumetric_UI_Components.fbx
+  artifactKey: Guid(fd9ad33176d03dd42885a4dce3cb38fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/SDK/Features/UX/Meshes/Sliders/Volumetric_UI_Components.fbx using Guid(fd9ad33176d03dd42885a4dce3cb38fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b32f29113781096d36b8b05d1577d1cb') in 0.242424 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 86
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/MRTK/Examples/StandardAssets/Materials/Lander.mat
+  artifactKey: Guid(2de1d67e38b75484a8b6510ba7dd2080) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/Examples/StandardAssets/Materials/Lander.mat using Guid(2de1d67e38b75484a8b6510ba7dd2080) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee7453c7642474d127703ef89b519af7') in 0.112009 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/MRTK/SDK/Features/UX/Interactable/Materials/HolographicBackPlateNoBorder.mat
+  artifactKey: Guid(40261cd01d861f241b945b4fb6609cff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/SDK/Features/UX/Interactable/Materials/HolographicBackPlateNoBorder.mat using Guid(40261cd01d861f241b945b4fb6609cff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39c21c664eab0515c47dcbc46324e13a') in 0.070600 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/MRTK/Examples/Demos/ScrollingObjectCollection/Materials/HolographicBackPlateNoBorder_Light_Blue.mat
+  artifactKey: Guid(c0e93915e1830654bbe2550ab932521a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/Examples/Demos/ScrollingObjectCollection/Materials/HolographicBackPlateNoBorder_Light_Blue.mat using Guid(c0e93915e1830654bbe2550ab932521a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bb97ee3dca7e682a06d43c620fae94b') in 0.018071 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/MRTK/Examples/StandardAssets/Materials/ClippingSphere.mat
+  artifactKey: Guid(fdabaa34bbb707e4886008184b1ea5de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/Examples/StandardAssets/Materials/ClippingSphere.mat using Guid(fdabaa34bbb707e4886008184b1ea5de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45387c5948e449059b179e8935df36d8') in 0.090937 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/MRTK/SDK/Features/UX/Interactable/Materials/HolographicButtonContent.mat
+  artifactKey: Guid(1ad68daec9ac6374cb32214e55dc158e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/SDK/Features/UX/Interactable/Materials/HolographicButtonContent.mat using Guid(1ad68daec9ac6374cb32214e55dc158e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba95e9ee849d94576e6e06c24820f22b') in 0.076775 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/MRTK/Examples/StandardAssets/Models/Materials/6.mat
+  artifactKey: Guid(bfc246c5506b90144bf15735519c217c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/Examples/StandardAssets/Models/Materials/6.mat using Guid(bfc246c5506b90144bf15735519c217c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd2b8499c3ea1569651baf52426f4aec') in 0.019387 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/MRTK/Examples/Demos/Input/Scenes/InputData/InputRaysFloor.mat
+  artifactKey: Guid(5ad51b8ac2de33043aa6ff081b1d1617) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/Examples/Demos/Input/Scenes/InputData/InputRaysFloor.mat using Guid(5ad51b8ac2de33043aa6ff081b1d1617) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d21c971efb57bbed544f0c6d5f59023') in 0.280808 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/MRTK/Examples/StandardAssets/Prefabs/Prototyping/Chevron.prefab
+  artifactKey: Guid(088efeed31a081c419979a80a12c5b0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/Examples/StandardAssets/Prefabs/Prototyping/Chevron.prefab using Guid(088efeed31a081c419979a80a12c5b0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b05150dff0281e1a3d06820ea70b497a') in 0.017876 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/MRTK/Examples/Experimental/HandMenuLayout/Materials/HandMenuIcon_3x2.mat
+  artifactKey: Guid(0056e30912ba4a047b02c085105dfbf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/Examples/Experimental/HandMenuLayout/Materials/HandMenuIcon_3x2.mat using Guid(0056e30912ba4a047b02c085105dfbf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8dd3d1a89029020ed80d85e7bc55264') in 0.019141 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/MRTK/Examples/Common/Prefabs/HandMenuSliderAssets/Models/Slider_Dot_geo.fbx
+  artifactKey: Guid(eeef9bdf2a04b3f4da0b556c9b6ee297) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/Examples/Common/Prefabs/HandMenuSliderAssets/Models/Slider_Dot_geo.fbx using Guid(eeef9bdf2a04b3f4da0b556c9b6ee297) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4b13c0ad28888809f53621010a89d78') in 0.025119 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/MRTK/SDK/Features/UX/Interactable/Materials/HolographicBackPlateHover.mat
+  artifactKey: Guid(8c3faec7fe20fa049a963e86c6a92a3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/SDK/Features/UX/Interactable/Materials/HolographicBackPlateHover.mat using Guid(8c3faec7fe20fa049a963e86c6a92a3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa1551d8861bdbd443d0feb5c9c3023a') in 0.020428 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/MRTK/SDK/Features/UX/Prefabs/Sliders/PinchSlider.prefab
+  artifactKey: Guid(1093263a89abe47499cccf7dcb08effb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/SDK/Features/UX/Prefabs/Sliders/PinchSlider.prefab using Guid(1093263a89abe47499cccf7dcb08effb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab9e138f811d6afa5e18dafee4710a76') in 0.229574 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 97
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/MRTK/SDK/StandardAssets/Controllers/Visuals/Models/generic-controller/right.glb
+  artifactKey: Guid(4b4cb3b9652564345befa8f964fbcf4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/SDK/StandardAssets/Controllers/Visuals/Models/generic-controller/right.glb using Guid(4b4cb3b9652564345befa8f964fbcf4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3e439098a685f9f16251eb2951e6102') in 0.370818 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 126
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/MRTK/Examples/StandardAssets/Models/HumanHeart.fbx
+  artifactKey: Guid(28de8cd8a6b1f454885cb901c876bb45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/Examples/StandardAssets/Models/HumanHeart.fbx using Guid(28de8cd8a6b1f454885cb901c876bb45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c463d3bd329d54aef04ffbb9c7a69c5f') in 0.106817 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/MRTK/Examples/Demos/Input/Scenes/InputData/HeadGizmo.prefab
+  artifactKey: Guid(b6db7367f2b63e44888c4c6faecdb483) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/Examples/Demos/Input/Scenes/InputData/HeadGizmo.prefab using Guid(b6db7367f2b63e44888c4c6faecdb483) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '329055b503f9727e21b636faed9eb819') in 0.114441 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 3.815134 seconds.
+  path: Assets/MRTK/SDK/Features/UX/Prefabs/RiggedHandVisualizer/RiggedHandRight.prefab
+  artifactKey: Guid(7a857af0cb85b4a47b6ec8a1babcb73c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/SDK/Features/UX/Prefabs/RiggedHandVisualizer/RiggedHandRight.prefab using Guid(7a857af0cb85b4a47b6ec8a1babcb73c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '846cd6fe89674c6ceccacc0d7701ad6d') in 0.057526 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 110
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/MRTK/SDK/Features/UX/Interactable/Prefabs/SimpleButton.prefab
+  artifactKey: Guid(f75829242875c1c4ca4ea5a5e7a6a742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/SDK/Features/UX/Interactable/Prefabs/SimpleButton.prefab using Guid(f75829242875c1c4ca4ea5a5e7a6a742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '479dfef323878ce0fcefcc17a0d46a22') in 0.150834 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 34
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/MRTK/Tools/RuntimeTools/StandardAssets/Prefabs/SceneDescriptionPanel.prefab
+  artifactKey: Guid(4f4e45632f741eb49a4c265afc815789) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/Tools/RuntimeTools/StandardAssets/Prefabs/SceneDescriptionPanel.prefab using Guid(4f4e45632f741eb49a4c265afc815789) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb682f59f04e344cf8344d14e17463a8') in 0.161170 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 73
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/MRTK/SDK/Features/UX/Prefabs/Tooltips/Simple Line ToolTip.prefab
+  artifactKey: Guid(afaef0108a478c44a9eac26658bc29bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/SDK/Features/UX/Prefabs/Tooltips/Simple Line ToolTip.prefab using Guid(afaef0108a478c44a9eac26658bc29bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '230b21332d48c9300032d012992e4c34') in 0.043587 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 40
+========================================================================
+Received Import Request.
+  Time since last request: 0.291427 seconds.
+  path: Assets/MRTK/SDK/Experimental/ServiceManagers/Teleport/Prefabs/TeleportSystem.prefab
+  artifactKey: Guid(79e042ff43ff8454cb6fc1aa9898435c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/SDK/Experimental/ServiceManagers/Teleport/Prefabs/TeleportSystem.prefab using Guid(79e042ff43ff8454cb6fc1aa9898435c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69c7d4c4050a57b7a483f69fa646ca52') in 0.002659 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000098 seconds.
+  path: Assets/MRTK/Examples/Experimental/ExamplesHub/Prefabs/ToggleFeaturesPanelExamplesHub.prefab
+  artifactKey: Guid(26b0c24187a40734a89bfc6c224c8c60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/Examples/Experimental/ExamplesHub/Prefabs/ToggleFeaturesPanelExamplesHub.prefab using Guid(26b0c24187a40734a89bfc6c224c8c60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a185cba9ad768f8065ac14020eab739') in 0.101329 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 926
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/MRTK/SDK/Features/UX/Interactable/Prefabs/UnityUIInteractables/UnityUICheckboxButton.prefab
+  artifactKey: Guid(96122ce0e0e9cf24c83e542358490906) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/SDK/Features/UX/Interactable/Prefabs/UnityUIInteractables/UnityUICheckboxButton.prefab using Guid(96122ce0e0e9cf24c83e542358490906) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24ad38c93d90f38ddbd5b59c869a8e30') in 0.016523 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 60
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
